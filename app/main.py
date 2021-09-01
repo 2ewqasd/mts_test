@@ -8,6 +8,7 @@ app = FastAPI()
 def get():
     return {"status": 200}
 
+
 @app.post("/")
 def post():
     return {"status": 200}
